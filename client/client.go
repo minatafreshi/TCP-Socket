@@ -11,7 +11,7 @@ import (
 	"regexp"
 )
 
-var host = flag.string ("host" , "192.168.1.118" , "the hostname or IP to connect to ; defualts to \"local host"\.)
+var host = flag.string ("host" , "" , "the hostname or IP to connect to ; defualts to \"local host"\.)
 var port = flag.Int ( "port" , 65534 , "the port to connect to defaults to 65534")
 
 func main()  {
