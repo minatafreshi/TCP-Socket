@@ -11,8 +11,8 @@ import (
 	"regexp"
 )
 
-var addr = flag.String("addr", "192.168.1.118", "The address to listen to; default is \"\" (all interfaces).")
-var port = flag.Int("port", 65534, "The port to listen on; default is 65534.")
+var addr = flag.String("addr", "", "The address to listen to; default is \"\" (all interfaces).")
+var port = flag.Int("port", 8000, "The port to listen on; default is 8000.")
 
 func main() {
 	fmt.Println("Starting server...")
